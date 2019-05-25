@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<style>
+
+body {  
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  font-family: monospace;
+  background: linear-gradient(180deg, #008080, #3300FF)
+} 
+  
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: -10px;
+}
+  
+  #navbar li {
+    float: left;
+  }
+  
+  #navbar li a:link {
+    text-decoration: none;
+    color: #008080;
+    margin: 20px;
+  }
+  
+  #navbar li a:hover {
+    color: #4B0082;
+  }
+  
+  #navbar li a:visited {
+    color: #008080;
+  }
+  
+  main {
+    padding-top: 10%;
+  }
+    
+  #welcome-section {
+    text-align: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 7em;
+  }
+  
+  #welcome-section p {
+    font-size: 2em;
+  }
+  
+  #projects {
+    text-align: center;
+    height: 100vh;
+    font-weight: bold;
+  }
+  
+  .project-block {
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    padding: 5em;
+  }
+  
+  img {
+    height: 7em;
+    width: 7em;
+    border-radius: 4px;
+  }
+  
+  img:hover {
+    height: 9em;
+    width: 9em;
+  }
+  
+  h2 {
+    font-size: 3em;
+  }
+   
+  .project-tile {
+    color: white;
+    float: left;
+  }
+  
+  #contact {
+    text-align: center;
+    margin-bottom: 5em;
+  }
+  
+  h3 {
+    font-size: 2em;
+  }
+  
+  #contact button {
+    font-weight: bold;
+  }
+
+</style>
+
+
+<html>
+<body>
+
+<header>
+<nav id="navbar">
+    <ul style="list-style: none;">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+ 
+<section id="welcome-section">
+<h1>Zac Glover</h1>
+<p>Digital Marketing | Web Development</p>
+</section>
+
+<section id="projects">
+<h2>Check Out Some of my Work:</h2>
+  <div class="project-block">
+  <a target="_blank" class="project-tile" href="https://www.forbes.com/sites/zacglover"><img src="https://i.forbesimg.com/media/assets/forbes_1200x1200.jpg" alt="Project"><div class="project-title">Forbes Articles</div></a>
+  </div>
+  <div class="project-block">
+<a target="_blank" class="project-tile" href="http://zacglover.com/blog-zacglover/2017/4/13/the-sports-tech-startup-directory"><img src="https://static1.squarespace.com/static/554a1caee4b0083d7a165688/t/58f01ebce58c6290e6fa3bb9/1492131536355/?format=1500w" alt="Project"><div class="project-title">Sports Tech Directory</div>
+    </a>
+  </div>
+  <div class="project-block">
+<a target="_blank" class="project-tile" href="http://zacglover.com/blog-zacglover/2015/12/7/entrepreneur-dinner-infographic"><img src="https://static1.squarespace.com/static/554a1caee4b0083d7a165688/t/5665e59ebfe8736bcec7ebcc/1449518497431/?format=1000w" alt="project"><div class="project-title">Entrepreneur Dinners</div>
+    </a>
+  </div>
+  <div class="project-block">
+<a target="_blank" class="project-tile" href="https://codepen.io/zacglover/"><img src="https://static.codepen.io/assets/social/facebook-default-05cf522ae1d4c215ae0f09d866d97413a2204b6c9339c6e7a1b96ab1d4a7340f.png" alt="Project"><div class="project-title">Web Dev</div>
+  </a>
+  </div>
+</section>
+
+
+<section id="contact">
+<h3>Hit Me Up</h3>
+<button type="button" onclick="window.open('https://angel.co/zac-glover','blank')">AngelList</button>
+<button id="profile-link" type="button" onclick="window.open('https://github.com/zacglover', 'blank')">GitHub</button>
+<button id="zg-button" type="button" onclick="window.open('https://zacglover.com', 'blank')">zacglover.com</button>
+<button type="button" onclick="window.open('https://twitter.com/glover_zac', 'blank')">Twitter</button>
+<button type="button" onclick="window.open('https://www.quora.com/profile/Zac-Glover', 'blank')">Quora</button>
+</section>
+
+</main>
+
+
+</body>
+</html>
